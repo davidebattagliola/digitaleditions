@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bounté des Femmes</title>
+            <author>Anonymous (formerly attributed to <name>Nicole Bozon</name>)</author>
+            <respStmt>
+               <resp>Scholarly edition by</resp>
+               <name>Davide Battagliola</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>TEI Project for "Digital Editing of Medieval Manuscript" Course 2016 (Reconstructive
+               Edition)</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="J">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Cambridge</settlement>
+                        <institution>Saint John's College</institution>
+                        <idno>G.5</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="U">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Cambridge</settlement>
+                        <institution>University Library</institution>
+                        <idno>Gg.1.1.</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb ed="#J" n="161r" facs="http://i.imgur.com/1LAvrox.jpg"/>
+         <pb ed="#U" n="390v" facs="http://cudl.lib.cam.ac.uk/view/MS-GG-00001-00001/788"/>
+         <p>
+            <l ana="#correct"><app>
+                  <lem><hi rend="bold">Bounté des femmes</hi></lem>
+                  <rdg wit="#J"/>
+                  <rdg wit="#U">Ci comence du bounté des fem</rdg>
+               </app></l>
+            <l ana="#correct">Cil <app>
+                  <lem wit="#U">fableürs</lem>
+                  <rdg wit="#J">fablers</rdg>
+               </app> trop me grevent</l>
+            <l ana="#correct"><app>
+                  <lem wit="#U">de</lem>
+                  <rdg wit="#J"/>
+               </app> rimer, që <app>
+                  <lem>ils</lem>
+                  <rdg wit="#J #U"/>
+               </app> ne sevent </l>
+            <l ana="#correct"><app>
+                  <lem>chaunter ne dire</lem>
+                  <rdg wit="#J">chaunter lire dire</rdg>
+                  <rdg wit="#U">rimer counter</rdg>
+               </app> fors <app>
+                  <lem wit="#J">qe</lem>
+                  <rdg wit="#U">de</rdg>
+               </app> fable.</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Ore</lem>
+                  <rdg wit="#U"/>
+               </app> escutez <app>
+                  <lem wit="#U">un</lem>
+                  <rdg wit="#J">une</rdg>
+               </app> dit <app>
+                  <lem wit="#J">creable</lem>
+                  <rdg wit="#U">creables</rdg>
+               </app>:</l>
+            <l ana="#correct">de dames et de <app>
+                  <lem wit="#U">damoiseles</lem>
+                  <rdg wit="#J">damoisels</rdg>
+               </app></l>
+            <l ana="#correct">vous <app>
+                  <lem wit="#J">en dirray</lem>
+                  <rdg wit="#U">sache dire</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">bones</lem>
+                  <rdg wit="#U">tiel</rdg>
+               </app> noveles</l>
+            <l ana="#correct">dount lour <app>
+                  <lem wit="#U">loaunge</lem>
+                  <rdg wit="#J">los</rdg>
+               </app>
+               <app>
+                  <lem>crestera</lem>
+                  <rdg wit="#J #U">crestra</rdg>
+               </app>,</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">si</lem>
+                  <rdg wit="#U"/>
+               </app> bien <app>
+                  <lem wit="#U">eit</lem>
+                  <rdg wit="#J">ert</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">qi</lem>
+                  <rdg wit="#U">qe</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">l'escotera</lem>
+                  <rdg wit="#U">moy escutera</rdg>
+               </app>.</l>
+            <l ana="#correct"><app>
+                  <lem>A touz iceus qi</lem>
+                  <rdg wit="#J">a touz ioeus qe</rdg>
+                  <rdg wit="#U">quancqe</rdg>
+               </app> sount en mound,</l>
+            <l ana="#correct">ky <app>
+                  <lem wit="#J">vivent</lem>
+                  <rdg wit="#U">sunt nez</rdg>
+               </app> et <app>
+                  <lem wit="#U">a nestre</lem>
+                  <rdg wit="#J">qi a vesture</rdg>
+               </app> sount,</l>
+            <app>
+               <lem >face a savoir communement</lem>
+               <rdg wit="#J"><l xml:id="v1">vous face a savoir communement</l></rdg>
+               <rdg wit="#U"><supplied reason="interpolation"><l corresp="#v1">trestuz saluz les
+                        maund</l><l>come leaus e fin amaunt</l><l>e come profes en le ordre</l><l>e
+                        me voille, sachez, amordre</l><l>de combatre pur fin amur,</l><l>q'il n'i ad
+                        for douce odur,</l> e doucement, sachez, en fleire</supplied></rdg>
+            </app>
+            <l ana="#correct"><app>
+                  <lem wit="#J">k'Amors</lem>
+                  <rdg wit="#U">Bone amur qe est deboneire</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">me prie</lem>
+                  <rdg wit="#U">me ad prié</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">courtoisement</lem>
+                  <rdg wit="#U">devoutement</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">ke say</lem>
+                  <rdg wit="#U">pur estre</rdg>
+               </app> gardeyn de <app>
+                  <lem wit="#J">son</lem>
+                  <rdg wit="#U"/>
+               </app> covent,</l>
+            <l ana="#correct">purqei me prent coer e talent</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">pur bien</lem>
+                  <rdg wit="#U">e pur</rdg>
+               </app> defendre <app>
+                  <lem wit="#J">sa</lem>
+                  <rdg wit="#U">la</rdg>
+               </app> meson</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">et a devener</lem>
+                  <rdg wit="#U">su devenu</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">son</lem>
+                  <rdg wit="#U">lur</rdg>
+               </app> champion</l>
+            <l ana="#correct">et <app>
+                  <lem>son serjaunt</lem>
+                  <rdg wit="#J">son sarjaunt</rdg>
+                  <rdg wit="#U">lur countur</rdg>
+               </app> et <app>
+                  <lem wit="#J">son countor</lem>
+                  <rdg wit="#U">lur prvostur</rdg>
+               </app></l>
+            <l ana="#correct">a <app>
+                  <lem wit="#U">Westmouster</lem>
+                  <rdg wit="#J">Wymouster</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">et</lem>
+                  <rdg wit="#U">ou</rdg>
+               </app> a la Tour</l>
+            <l ana="#partiallyCorrect"><app>
+                  <lem wit="#J">et ailours par Engletere</lem>
+                  <rdg wit="#U"/>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem>en temps de pes ou en temps de gere.</lem>
+                  <rdg wit="#J">en temps de pes ou de gere</rdg>
+                  <rdg wit="#U"/>
+               </app></l>
+            <l ana="#correct">Tort et <app>
+                  <lem wit="#U">force</lem>
+                  <rdg wit="#J">fort</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">tout</lem>
+                  <rdg wit="#U"/>
+               </app>
+               <app>
+                  <lem>mayntenaunt</lem>
+                  <rdg wit="#J">maytenaunt</rdg>
+                  <rdg wit="#U">meintenaunt</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#U">encountre</lem>
+                  <rdg wit="#J">countre</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">chescun</lem>
+                  <rdg wit="#U">chescune</rdg>
+               </app> medisaunt</l>
+            <l ana="#correct">pour les <app>
+                  <lem>chivalers</lem>
+                  <rdg wit="#J">dames</rdg>
+                  <rdg wit="#U">chivales</rdg>
+               </app> a l'issir,</l>
+            <l ana="#incorrect"> et pour les <app>
+                  <lem wit="#U">dames</lem>
+                  <rdg wit="#J">damoiseles</rdg>
+               </app>
+               <app>
+                  <lem wit="#U">al</lem>
+                  <rdg wit="#J"/>
+               </app> revenir.</l>
+            <l ana="#correct">Mes ja <app>
+                  <lem wit="#J">d'eles</lem>
+                  <rdg wit="#U">de l'eil</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">ne pas lerrom</lem>
+                  <rdg wit="#U">en parlerom</rdg>
+               </app></l>
+            <l ana="#correct">n'en <app>
+                  <lem>isserai</lem>
+                  <rdg wit="#J">issera</rdg>
+                  <rdg wit="#U">isterai</rdg>
+               </app> de la meson</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">pour</lem>
+                  <rdg wit="#U">de</rdg>
+               </app> consail prendre <app>
+                  <lem wit="#J">a nul vivant</lem>
+                  <rdg wit="#U">avaunke</rdg>
+               </app>,</l>
+            <l ana="#incorrect"><app>
+                  <lem wit="#J">kar tout sui prest mayntenant</lem>
+                  <rdg wit="#U">meintenant veez ci moun gaunt</rdg>
+               </app>.</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Lour dreit defens defenderay</lem>
+                  <rdg wit="#U"/>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">saunz assoingne et saunz de lay</lem>
+                  <rdg wit="#U"/>
+               </app></l>
+            <l ana="#correct">pour l'amor <app>
+                  <lem wit="#J">de</lem>
+                  <rdg wit="#U"/>
+               </app> nostre Sauveour,</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">qi</lem>
+                  <rdg wit="#U">qe</rdg>
+               </app> fyst a femme taunt d'honour</l>
+            <l ana="#correct">q'une pucele salua</l>
+            <l ana="#correct">par son <app>
+                  <lem wit="#U">angle</lem>
+                  <rdg wit="#J">angele</rdg>
+               </app> k'il envoya.</l>
+            <l ana="#correct">Le noun <app>
+                  <lem wit="#J">Eva</lem>
+                  <rdg wit="#U">Eve</rdg>
+               </app> fust <app>
+                  <lem wit="#J">tout</lem>
+                  <rdg wit="#U">tost</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">chaungé</lem>
+                  <rdg wit="#U">turné</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">kar</lem>
+                  <rdg wit="#U">qe</rdg>
+               </app> dë <app>
+                  <lem wit="#J">Eva</lem>
+                  <rdg wit="#U">Eve</rdg>
+               </app> fist l'<app>
+                  <lem wit="#U">angle</lem>
+                  <rdg wit="#J">angele</rdg>
+               </app> Ave:</l>
+            <app>
+               <lem wit="#J" xml:id="v2"><l>"Ave," dist il "de grace pleyne.</l></lem>
+               <rdg wit="#U" corresp="#v2"><supplied reason="interpolation"
+                     facs="http://imgur.com/43UtOvG.jpg"><l>Dieu vous sauve Marie</l><l>De grace
+                        replenie</l><l>Li sires est en vous</l>
+                     <l>De touz femmes qe sunt</l><l>Par my ceste mounde</l><l>Beneite seez
+                        vous</l><l>E beneit seit le fruit</l><l>Q'en vostre ventre crut</l><l>Jhesu
+                        li tresdouce. Amen</l></supplied></rdg>
+            </app>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Vous sauverez lignée humeyne.</lem>
+                  <rdg wit="#U"/>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Vous porterez le benoit fruit</lem>
+                  <rdg wit="#U"/>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem>par qei enfern sera destrut".</lem>
+                  <rdg wit="#J">par qei enferne sera destrut</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Ceo</lem>
+                  <rdg wit="#U">et ceo</rdg>
+               </app>
+               <app>
+                  <lem wit="#U">fu</lem>
+                  <rdg wit="#J">fui</rdg>
+               </app>, sachez, le <app>
+                  <lem wit="#J">douz salu</lem>
+                  <rdg wit="#U">douce salue</rdg>
+               </app></l>
+            <l ana="#incorrect">dount nous avint <app>
+                  <lem wit="#J">le grant</lem>
+                  <rdg wit="#U">tut le</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">pru</lem>
+                  <rdg wit="#U">prue</rdg>
+               </app>.</l>
+            <l ana="#correct">Beneit soit l'oure <app>
+                  <lem wit="#U">q'el</lem>
+                  <rdg wit="#J">q'ele</rdg>
+               </app> nasqui:</l>
+            <l ana="#incorrect"><app>
+                  <lem wit="#U">desprisonés</lem>
+                  <rdg wit="#J">desprisoné</rdg>
+               </app> sumes <app>
+                  <lem wit="#J">touz</lem>
+                  <rdg wit="#U">nous</rdg>
+               </app> par li,</l>
+            <l ana="#correct">kar femme porta <app>
+                  <lem>la</lem>
+                  <rdg wit="#J #U">le</rdg>
+               </app> raunson</l>
+            <l ana="#correct">qe nous <app>
+                  <lem wit="#U">reint</lem>
+                  <rdg wit="#J">restent</rdg>
+               </app> d'enfernal prison.</l>
+            <app>
+               <lem wit="#J #U">Par femmë est la deité</lem>
+            </app>
+            <l ana="#correct"><app>
+                  <lem>joynte</lem>
+                  <rdg wit="#J #U">joynt</rdg>
+               </app> a nostrë humanité</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">ki</lem>
+                  <rdg wit="#U">qe</rdg>
+               </app> vout les <app>
+                  <lem wit="#U">estories</lem>
+                  <rdg wit="#J">estores</rdg>
+               </app> sercher</l>
+            <l ana="#correct"> apertement purra <app>
+                  <lem wit="#J">vëer</lem>
+                  <rdg wit="#U">trover</rdg>
+               </app></l>
+            <l ana="#correct">qe Dieux ad fait <app>
+                  <lem wit="#J">graynor</lem>
+                  <rdg wit="#U">plus grant</rdg>
+               </app> honor</l>
+            <l ana="#incorrect"><app>
+                  <lem wit="#J #U">et mustré graignour amor</lem>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J #U">a femme par sa curtoisie</lem>
+               </app></l>
+            <l ana="#correct">q'a <app>
+                  <lem wit="#J">nul</lem>
+                  <rdg wit="#U"/>
+               </app> homme <app>
+                  <lem wit="#U">qi</lem>
+                  <rdg wit="#J">qe</rdg>
+               </app> seit en vie</l>. <l ana="#correct"><app>
+                  <lem wit="#J #U">Nostre Seignour, bien dire l'os,</lem>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">fist</lem>
+                  <rdg wit="#U">si fist</rdg>
+               </app> Adam <app>
+                  <lem wit="#J">de tay</lem>
+                  <rdg wit="#U"/>
+               </app>, <app>
+                  <lem>Eve</lem>
+                  <rdg wit="#J #U">et Eve</rdg>
+               </app> d'<app>
+                  <lem>os</lem>
+                  <rdg wit="#J">une os</rdg>
+                  <rdg wit="#U">un os</rdg>
+               </app>:</l>
+            <l ana="#correct">os saunz char <app>
+                  <lem wit="#J">est nettë et</lem>
+                  <rdg wit="#U">en sei est</rdg>
+               </app>pure</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">et forte</lem>
+                  <rdg wit="#U">seec</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">en sei</lem>
+                  <rdg wit="#U">et nette</rdg>
+               </app>,<app>
+                  <lem wit="#J">pure</lem>
+                  <rdg wit="#U">redde</rdg>
+               </app> et dure.</l>
+            <l ana="#correct"><app>
+                  <lem wit="#U">Os</lem>
+                  <rdg wit="#J">et si</rdg>
+               </app> est <app>
+                  <lem wit="#U">blaunche</lem>
+                  <rdg wit="#J">blank</rdg>
+               </app>
+               <app>
+                  <lem>com</lem>
+                  <rdg wit="#J #U">come</rdg>
+               </app> flour de may,</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">mes</lem>
+                  <rdg wit="#U">e</rdg>
+               </app> Adam <app>
+                  <lem wit="#J">qi</lem>
+                  <rdg wit="#U">qe</rdg>
+               </app> fuit fait de tay,</l>
+            <l ana="#correct">de <app>
+                  <lem>vil</lem>
+                  <rdg wit="#J #U">vile</rdg>
+               </app> tere, ceo dist l'escrit,</l>
+            <l ana="#correct">coment <app>
+                  <lem wit="#U">purroit</lem>
+                  <rdg wit="#J">serroit</rdg>
+               </app>
+               <app>
+                  <lem wit="#U">estre</lem>
+                  <rdg wit="#J">nette et</rdg>
+               </app> parfit,</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">chose</lem>
+                  <rdg wit="#U">ceo qe</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">faite</lem>
+                  <rdg wit="#U">fu fait</rdg>
+               </app> de poreture?</l>
+            <l ana="#correct">Ceo <app>
+                  <lem wit="#U">serroit</lem>
+                  <rdg wit="#J">serroit tout</rdg>
+               </app> encountre nature;</l>
+            <l ana="#correct">dount jeo <app>
+                  <lem wit="#U">vous</lem>
+                  <rdg wit="#J"/>
+               </app>
+               <app>
+                  <lem wit="#J">die</lem>
+                  <rdg wit="#U"/>
+               </app>
+               <app>
+                  <lem>par</lem>
+                  <rdg wit="#J #U">pur</rdg>
+               </app> jugement</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J #U">qe femme est naturelment</lem>
+               </app></l>
+            <l ana="#correct">blaunche, <app>
+                  <lem wit="#J">nette</lem>
+                  <rdg wit="#U">nette e</rdg>
+               </app>, <app>
+                  <lem wit="#J">finë</lem>
+                  <rdg wit="#U">fin</rdg>
+               </app> et pure,</l>
+            <pb ed="#U" n="391r" facs="http://cudl.lib.cam.ac.uk/view/MS-GG-00001-00001/789"/>
+            <l ana="#correct"><app>
+                  <lem wit="#U">et</lem>
+                  <rdg wit="#J"/>
+               </app>de ceo<app>
+                  <lem wit="#J">jeo chescun</lem>
+                  <rdg wit="#U">tres bien moi</rdg>
+               </app> assure,</l>
+            <pb ed="#J" n="161v" facs="http://i.imgur.com/4msJ6Gt.jpg"/>
+            <l ana="#correct">kar home, <app>
+                  <lem>qi</lem>
+                  <rdg wit="#J"/>
+                  <rdg wit="#U">qe</rdg>
+               </app> fu fait de bowe,</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J #U">a la barbë et a la jowe</lem>
+               </app></l>
+            <l ana="#partiallyCorrect"><app>
+                  <lem wit="#J">puit</lem>
+                  <rdg wit="#U">poez</rdg>
+               </app> bien <app>
+                  <lem wit="#J">saver</lem>
+                  <rdg wit="#U">veez</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">sa</lem>
+                  <rdg wit="#U">la</rdg>
+               </app> matire:</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">chescun</lem>
+                  <rdg wit="#U">chescune</rdg>
+               </app> quinzen <app>
+                  <lem wit="#U">jour</lem>
+                  <rdg wit="#J"/>
+               </app>
+               <app>
+                  <lem wit="#J">së attire</lem>
+                  <rdg wit="#U">a reire</rdg>
+               </app></l>
+            <l ana="#correct">de barber <app>
+                  <lem>et d'ostier</lem>
+                  <rdg wit="#J">est ostier</rdg>
+                  <rdg wit="#U">et d'hoster</rdg>
+               </app> l'ordure.</l>
+            <l ana="#correct">Femmes <app>
+                  <lem wit="#J">sount</lem>
+                  <rdg wit="#U">deivent</rdg>
+               </app>
+               <app>
+                  <lem>de dreite nature</lem>
+                  <rdg wit="#J">de dreit nature</rdg>
+                  <rdg wit="#U">par droiture</rdg>
+               </app>,</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Assez plus nettez</lem>
+                  <rdg wit="#U">eestre fines</rdg>
+               </app> et creables</l>
+            <l ana="#correct">et de lor <app>
+                  <lem wit="#J">distz</lem>
+                  <rdg wit="#U">cors</rdg>
+               </app> plus estables</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J #U">qe nul homme qe l'em trove.</lem>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem>Meyntenant</lem>
+                  <rdg wit="#J">meyntenante</rdg>
+                  <rdg wit="#U">meintenaunt</rdg>
+               </app>
+               <app>
+                  <lem wit="#U">vëez</lem>
+                  <rdg wit="#J">vey</rdg>
+               </app> ci la prove:</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">kar</lem>
+                  <rdg wit="#U">sachez</rdg>
+               </app> si femmes nous <app>
+                  <lem wit="#J">en</lem>
+                  <rdg wit="#U"/>
+               </app> donassent</l>
+            <l ana="#correct">et de <app>
+                  <lem wit="#J">noz</lem>
+                  <rdg wit="#U"/>
+               </app> amors nous priassent</l>
+            <l ana="#correct">et nous donassent <app>
+                  <lem wit="#J">de</lem>
+                  <rdg wit="#U"/>
+               </app> beaus douns</l>
+            <l ana="#correct">si <app>
+                  <lem wit="#U">come</lem>
+                  <rdg wit="#J">com</rdg>
+               </app> nous a eux fesoms</l>
+            <l ana="#correct">n'averait <app>
+                  <lem wit="#J">frere</lem>
+                  <rdg wit="#U">frere ne</rdg>
+               </app> cordeler</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">ne jacobin</lem>
+                  <rdg wit="#U">jacobin</rdg>
+               </app> n'hospiteler</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">në heremite</lem>
+                  <rdg wit="#U">heremite</rdg>
+               </app> ne gray moigne</l>
+            <l ana="#correct"><app>
+                  <lem>ne clerk</lem>
+                  <rdg wit="#J">clerk</rdg>
+                  <rdg wit="#U">ne chivaler</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">ne vesque</lem>
+                  <rdg wit="#U"/>
+               </app>
+               <app>
+                  <lem wit="#J">ne chanoigne</lem>
+                  <rdg wit="#U">saunz essoigne</rdg>
+               </app>.</l>
+            <l ana="#correct">Si une dame <app>
+                  <lem wit="#J">ou damoiselle</lem>
+                  <rdg wit="#U">cointe e sage</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem>qi fuïst gente meinte et bele</lem>
+                  <rdg wit="#J">qe fuist gente meinte et bele</rdg>
+                  <rdg wit="#U">ly dounast de bon courage</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">puïsse</lem>
+                  <rdg wit="#U">e poit</rdg>
+               </app> a lui <app>
+                  <lem wit="#J">parler</lem>
+                  <rdg wit="#U">venir</rdg>
+               </app> sovent</l>
+            <app>
+               <lem wit="#J" xml:id="v3"><l>et a leiser estre privement</l></lem>
+               <rdg wit="#U" corresp="#V3"><supplied reason="interpolation"><l>et lui acoler
+                        doucement</l><l>et a la fiez en un bea lit</l><l>et la dame ust bon
+                        delit</l></supplied></rdg>
+            </app>
+            <l ana="#correct">de <app>
+                  <lem>lui baiser</lem>
+                  <rdg wit="#J">baiser</rdg>
+                  <rdg wit="#U">li baiser</rdg>
+               </app>
+               <app>
+                  <lem wit="#U">et acoler</lem>
+                  <rdg wit="#J">jower et acoler</rdg>
+               </app>,</l>
+            <l ana="#correct">jeo vous dy bien, <app>
+                  <lem wit="#J">par seint Richer</lem>
+                  <rdg wit="#U">un chivaler</rdg>
+               </app>,</l>
+            <l ana="#correct"><app>
+                  <lem>qe plus tost fereit</lem>
+                  <rdg wit="#J">que plustost freit</rdg>
+                  <rdg wit="#U">freit adunk plus tost</rdg>
+               </app>
+               <app>
+                  <lem>un fou saut</lem>
+                  <rdg wit="#J">une fou saut</rdg>
+                  <rdg wit="#U">un saut</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem>pour la femme</lem>
+                  <rdg wit="#J">qe la femme</rdg>
+                  <rdg wit="#U">une dame</rdg>
+               </app>, si Dieus <app>
+                  <lem wit="#U">me</lem>
+                  <rdg wit="#J">ma</rdg>
+               </app> saut.</l>
+            <l ana="#correct">Par ma vië et par ma mort</l>
+            <l ana="#correct">femmes ount drait <app>
+                  <lem wit="#U">et nous le</lem>
+                  <rdg wit="#J">en le</rdg>
+               </app>tort.</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Entendez</lem>
+                  <rdg wit="#U">remembres</rdg>
+               </app>, <app>
+                  <lem wit="#J">beau sire</lem>
+                  <rdg wit="#U">vous feire</rdg>
+               </app> justice,</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">ceste jeo</lem>
+                  <rdg wit="#U">de ceste</rdg>
+               </app> prove <app>
+                  <lem wit="#J">saunz fayntise</lem>
+                  <rdg wit="#U">en toute guise</rdg>
+               </app></l>
+            <l ana="#correct">qe j’ay <app>
+                  <lem wit="#J">ore dist e</lem>
+                  <rdg wit="#U">devant vous cy</rdg>
+               </app> prové</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">et</lem>
+                  <rdg wit="#U"/>
+               </app> qu’<app>
+                  <lem wit="#J">aillors</lem>
+                  <rdg wit="#U">vous</rdg>
+               </app> ne <app>
+                  <lem wit="#J">seit</lem>
+                  <rdg wit="#U">seez</rdg>
+               </app> reprové.</l>
+            <l ana="#correct">Si jeo <app>
+                  <lem wit="#J">puïsse</lem>
+                  <rdg wit="#U">poi</rdg>
+               </app> mil aunz <app>
+                  <lem wit="#U">vivre</lem>
+                  <rdg wit="#J">vivere</rdg>
+               </app>,</l>
+            <l ana="#correct"><app>
+                  <lem>si jeo purroi totes escrivre</lem>
+                  <rdg wit="#J">si jeo purroi totes escrivere</rdg>
+                  <rdg wit="#U">assez en averoie a matire</rdg>
+               </app></l>
+            <!-- the witnesses are very different in the following section -->
+            <app>
+               <lem xml:id="v4"><l ana="#correct">les bountés qi en femmes sount,</l>
+                  <l ana="#correct">mes tieux ja qe plus preyserount</l>
+                  <l ana="#correct">de femmes la grant beauté</l>
+                  <l ana="#correct">ke meferount la grant bounté,</l>
+                  <l ana="#incorrect">et tant m'esprovet, ceo m’est avis,</l>
+                  <l ana="#correct">kar assez est de plus haut pris</l>
+                  <l ana="#correct">la grant vertu de la bounté</l>
+                  <l ana="#correct">ke n’est vertu de la beauté;</l></lem>
+               <rdg wit="#J" corresp="#v4">
+                  <l>les bountés qi en femmes sount,</l>
+                  <l>mes tieux ja qe plus preyserount</l>
+                  <l>de femmes la grant beauté</l>
+                  <l>ke mefrount la grant bounté,</l>
+                  <l>et tant m'esprovet, ceo m’est avise,</l>
+                  <l>kar assez est de plus haut prise</l>
+                  <l>la grant vertu de la bounté</l>
+                  <l>ke n’est vertu de la beauté;</l>
+               </rdg>
+               <rdg wit="#U" corresp="#v4">
+                  <l>Pur pler de lur boneireté</l>
+                  <l>E de lur bounté e de humilité</l>
+                  <l>Si ne deit estre celé</l>
+                  <l>Entir lur biens lur grant beauté</l>
+                  <l>Que teus isount qe plus preiserunt</l>
+                  <l>Lur beaute qe lur biens ne fount</l>
+               </rdg>
+            </app>
+            <l ana="#correct">mes qant <app>
+                  <lem wit="#J">les</lem>
+                  <rdg wit="#U">ces</rdg>
+               </app> deus sont <app>
+                  <lem wit="#J">joint</lem>
+                  <rdg wit="#U"/>
+               </app> ensemble</l>
+            <l ana="#correct">dunqe est <app>
+                  <lem wit="#J">ceo bien</lem>
+                  <rdg wit="#U">tuit bone</rdg>
+               </app>, si <app>
+                  <lem wit="#J">com</lem>
+                  <rdg wit="#U"/>
+               </app> me semble.</l>
+            <l ana="#correct">Femme et <app>
+                  <lem wit="#U">angle</lem>
+                  <rdg wit="#J">aungel</rdg>
+               </app> ount <app>
+                  <lem wit="#U">une</lem>
+                  <rdg wit="#J">un</rdg>
+               </app> fassoun,</l>
+            <app>
+               <lem wit="#J" xml:id="v5"><l>mult i ad bele comparisoun.</l></lem>
+               <rdg wit="#U" corresp="#v5"><l>mult i ad bon comparisoun</l>
+                  <supplied reason="interpolation"><l>facoun de femme est de grant pris,</l>
+                     <l>vermaille come rose, blaunke com lyz</l></supplied>
+               </rdg>
+            </app>
+            <l ana="#incorrect"><app>
+                  <lem wit="#J">Maint home</lem>
+                  <rdg wit="#U">ceo que l'em</rdg>
+               </app> dist qe <app>
+                  <lem wit="#J">Sampsoun</lem>
+                  <rdg wit="#U">Salomon</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Adam, David</lem>
+                  <rdg wit="#U">Sampson le fort</rdg>
+               </app> et <app>
+                  <lem wit="#J">Salomoun</lem>
+                  <rdg wit="#U">Absolon</rdg>
+               </app></l>
+            <l ana="#correct">furent par lor femmes <app>
+                  <lem>dessus</lem>
+                  <rdg wit="#J">dessu</rdg>
+                  <rdg wit="#U">deceus</rdg>
+               </app>:</l>
+            <l ana="#correct">de ceo ne soiez pas <app>
+                  <lem>esmeus</lem>
+                  <rdg wit="#J">esmeu</rdg>
+                  <rdg wit="#U">ennuyz</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">qar</lem>
+                  <rdg wit="#U"/>
+               </app> tout soit <app>
+                  <lem wit="#U">ceo</lem>
+                  <rdg wit="#J"/>
+               </app>
+               <app>
+                  <lem wit="#J">issi</lem>
+                  <rdg wit="#U">en livre</rdg>
+               </app> escrit:</l>
+            <l ana="#correct">de <app>
+                  <lem wit="#U">fableie</lem>
+                  <rdg wit="#J">fabler</rdg>
+               </app> së <app>
+                  <lem wit="#U">entremist</lem>
+                  <rdg wit="#J">entiremist</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem>ki</lem>
+                  <rdg wit="#J #U">ke</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">primes</lem>
+                  <rdg wit="#U">primis</rdg>
+               </app> fist <app>
+                  <lem wit="#U">celë</lem>
+                  <rdg wit="#J"/>
+               </app> escrivre.</l>
+            <l ana="#correct"><app>
+                  <lem wit="#U">L'em</lem>
+                  <rdg wit="#J">homme</rdg>
+               </app> trove <app>
+                  <lem wit="#U">mainte chose</lem>
+                  <rdg wit="#J">maint chos</rdg>
+               </app> en <app>
+                  <lem wit="#U">livre</lem>
+                  <rdg wit="#J">livere</rdg>
+               </app></l>
+            <l ana="#correct">ou <app>
+                  <lem>il</lem>
+                  <rdg wit="#J #U">i</rdg>
+               </app>
+               <app>
+                  <lem wit="#U">n'i ad</lem>
+                  <rdg wit="#J">ad</rdg>
+               </app>
+               <app>
+                  <lem wit="#U">for</lem>
+                  <rdg wit="#J"/>
+               </app>
+               <app>
+                  <lem wit="#J">qe</lem>
+                  <rdg wit="#U"/>
+               </app> devinale:</l>
+            <l ana="#correct">ceo <app>
+                  <lem wit="#U">fu</lem>
+                  <rdg wit="#J">fui</rdg>
+               </app> fable, <app>
+                  <lem wit="#J">sachez</lem>
+                  <rdg wit="#U">tuit</rdg>
+               </app>, saunz faile.</l>
+            <l ana="#correct">Honi <app>
+                  <lem wit="#U">seit</lem>
+                  <rdg wit="#J">sei</rdg>
+               </app> ore <app>
+                  <lem wit="#J">l'escriveyn</lem>
+                  <rdg wit="#U">li escrivein</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">si</lem>
+                  <rdg wit="#U">qant</rdg>
+               </app> a <app>
+                  <lem wit="#U">sun</lem>
+                  <rdg wit="#J"/>
+               </app> gré <app>
+                  <lem wit="#J">i</lem>
+                  <rdg wit="#U"/>
+               </app> mist la mayn.</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">A mettir</lem>
+                  <rdg wit="#U"/>
+               </app>
+               <app>
+                  <lem wit="#U">tiele</lem>
+                  <rdg wit="#J">tieu</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">chose</lem>
+                  <rdg wit="#U">mensoigne metre</rdg>
+               </app> en livre</l>
+            <app>
+               <lem><l ana="#partiallyCorrect">il fu frenetik ou yvre</l></lem>
+               <rdg wit="#J"><l>il fui frentik ou yvere</l></rdg>
+               <rdg wit="#U"><l>il fu hors de sen ou yvre</l>
+                  <supplied><l>u tres mauveis l'escriveyne,</l>
+                     <l>de ceo sui bien certeine</l></supplied>
+               </rdg>
+            </app>
+            <app>
+               <lem>frenetik</lem>
+               <rdg wit="#J">frentik</rdg>
+               <rdg wit="#U">hors de sen</rdg>
+            </app> ou <app>
+               <lem wit="#U">yvre</lem>
+               <rdg wit="#J">yvere</rdg>
+            </app>
+            <l ana="#correct">ou <app>
+                  <lem wit="#J">ascun mauveis</lem>
+                  <rdg wit="#U">ascune mauveise</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">le</lem>
+                  <rdg wit="#U">li</rdg>
+               </app> fist fere</l>
+            <app>
+               <lem><l ana="#correct">qi voleit a femmes desplere</l></lem>
+               <rdg wit="#J"><l>qi volet au femmes desplere</l></rdg>
+               <rdg wit="#U"><l>qe a femmes fu contrere</l>
+                  <supplied><l>Morir pust il desconfes,</l>
+                     <l>qe trop vers femmes seit engres</l></supplied>
+               </rdg>
+            </app>
+            <l ana="#correct">
+               <app>
+                  <lem wit="#J">Lui</lem>
+                  <rdg wit="#U">qe</rdg>
+               </app> vilein dist en reprover:</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">cil</lem>
+                  <rdg wit="#U">cele</rdg>
+               </app> oseus eit <app>
+                  <lem wit="#J">mal</lem>
+                  <rdg wit="#U"/>
+               </app> encombrer</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">qi</lem>
+                  <rdg wit="#U">qe</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">soyle</lem>
+                  <rdg wit="#U">foule</rdg>
+               </app> son <app>
+                  <lem wit="#U">demeyne</lem>
+                  <rdg wit="#J">demeyn</rdg>
+               </app> nye.</l>
+            <l ana="#correct">Ore <app>
+                  <lem wit="#J">oiez</lem>
+                  <rdg wit="#U">orrez</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">par</lem>
+                  <rdg wit="#U">pur</rdg>
+               </app> qei le <app>
+                  <lem wit="#U">vous</lem>
+                  <rdg wit="#J"/>
+               </app> die:</l>
+            <pb ed="#U" n="391v" facs="http://cudl.lib.cam.ac.uk/view/MS-GG-00001-00001/790"/>
+            <l ana="#correct"><app>
+                  <lem wit="#J">de</lem>
+                  <rdg wit="#U">qe de</rdg>
+               </app> femmes <app>
+                  <lem wit="#J">sumes</lem>
+                  <rdg wit="#U">ne fumes</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">touz</lem>
+                  <rdg wit="#U"/>
+               </app> issuz,</l>
+            <l ana="#incorrect"><app>
+                  <lem wit="#J">ceo</lem>
+                  <rdg wit="#U">qe ceo</rdg>
+               </app>ne puit dedire nuz.</l>
+            <pb ed="#J" n="162r" facs="http://i.imgur.com/5KHKiJX.jpg"/>
+            <l ana="#partiallyCorrect"><app>
+                  <lem wit="#J">De</lem>
+                  <rdg wit="#U">dunc est</rdg>
+               </app>
+               <app>
+                  <lem>la</lem>
+                  <rdg wit="#J #U"/>
+               </app> femme <app>
+                  <lem wit="#J">si neest</lem>
+                  <rdg wit="#U">ny</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">l'homme</lem>
+                  <rdg wit="#U">a home</rdg>
+               </app></l>
+            <l ana="#correct">si <app>
+                  <lem>com</lem>
+                  <rdg wit="#J #U">come</rdg>
+               </app> de <app>
+                  <lem wit="#J">l'arbre</lem>
+                  <rdg wit="#U">le fut</rdg>
+               </app> crest <app>
+                  <lem wit="#U">la</lem>
+                  <rdg wit="#J">le</rdg>
+               </app> pome;</l>
+            <l ana="#correct"><app>
+                  <lem wit="#U">si</lem>
+                  <rdg wit="#J">ensi</rdg>
+               </app> crest l'enfaunt naturelment</l>
+            <app>
+               <lem xml:id="v6">de la mere, pensez comment</lem>
+               <rdg wit="#J"><l>de la mier, pensez coment:</l></rdg>
+               <rdg wit="#U"><l>de la mere, ore di coment:</l>
+                  <supplied reason="interpolation" corresp="#v6">
+                     <l>susceptum semen sex primis crede diebus</l>
+                     <l>Est quasi lac reliquisque IX fit sanguis ad illud</l>
+                     <l>Consolidat duodena dies duo nona dices</l>
+                     <l>Effigiat tempusque sequens producit ad ortum</l></supplied></rdg>
+            </app>
+            <l ana="#correct"><app>
+                  <lem wit="#U">herbergez</lem>
+                  <rdg wit="#J">herbergé</rdg>
+               </app> sumes <app>
+                  <lem wit="#J">deinz</lem>
+                  <rdg wit="#U">dedeinz</rdg>
+               </app> lor <app>
+                  <lem wit="#J">flaunkes</lem>
+                  <rdg wit="#U">flaunc</rdg>
+               </app>,</l>
+            <l ana="#correct">de <app>
+                  <lem wit="#J">femmes</lem>
+                  <rdg wit="#U">els</rdg>
+               </app> avoms char et <app>
+                  <lem wit="#J">saunkes</lem>
+                  <rdg wit="#U">saunc</rdg>
+               </app>.</l>
+            <l ana="#correct">Aussi nurrist la femme <app>
+                  <lem>l'homme</lem>
+                  <rdg wit="#J">la homme</rdg>
+                  <rdg wit="#U">homme</rdg>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">si</lem>
+                  <rdg wit="#U"/>
+               </app> come <app>
+                  <lem wit="#J">l'arbre</lem>
+                  <rdg wit="#U">arbre</rdg>
+               </app> fet <app>
+                  <lem wit="#J">la</lem>
+                  <rdg wit="#U">peire ou</rdg>
+               </app>poume.</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">Ceo seroit</lem>
+                  <rdg wit="#U">ni est dunc</rdg>
+               </app> encountre nature</l>
+            <l ana="#correct">si le fruit doit l'arbre destrure</l>
+            <l ana="#correct"><app>
+                  <lem>Le</lem>
+                  <rdg wit="#J #U"/>
+               </app> fruit ne put saunz <app>
+                  <lem wit="#J">arbre</lem>
+                  <rdg wit="#U">l'arbre</rdg>
+               </app> crestre,</l>
+            <l ana="#correct">saunz femme <app>
+                  <lem>ne put homme</lem>
+                  <rdg wit="#J">puit nul home</rdg>
+                  <rdg wit="#U">ne put nuls</rdg>
+               </app> nestre,</l>
+            <l ana="#correct">mes saunz homme, <app>
+                  <lem wit="#J">ceo</lem>
+                  <rdg wit="#U">come</rdg>
+               </app> dist l'escrit,</l>
+            <l ana="#correct">de femmë <app>
+                  <lem wit="#U">un</lem>
+                  <rdg wit="#J">une</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">enfaunt</lem>
+                  <rdg wit="#U">home</rdg>
+               </app> nasquist.</l>
+            <l ana="#correct"><app>
+                  <lem wit="#U">Dunc</lem>
+                  <rdg wit="#J">dnqe</rdg>
+               </app>
+               <app>
+                  <lem wit="#U">puis</lem>
+                  <rdg wit="#J">puisse</rdg>
+               </app> je dire par de ça</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">q'unkes</lem>
+                  <rdg wit="#U">qe dunkes</rdg>
+               </app> home ne l'adesa.</l>
+            <l ana="#correct">Si Jhesu Crist l'eust destiné</l>
+            <l ana="#correct">le secle puit estre estoré</l>
+            <l ana="#correct">saunz hommë <app>
+                  <lem wit="#U">et</lem>
+                  <rdg wit="#J"/>
+               </app> de femme <app>
+                  <lem wit="#U">crestre</lem>
+                  <rdg wit="#J">nestre</rdg>
+               </app>;</l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">d'homme</lem>
+                  <rdg wit="#U">mes d'homme</rdg>
+               </app> ne put nul <app>
+                  <lem wit="#J">home</lem>
+                  <rdg wit="#U"/>
+               </app> nestre.</l>
+            <l ana="#partiallyCorrect">De <app>
+                  <lem wit="#U">femme</lem>
+                  <rdg wit="#J">femme terrine</rdg>
+               </app>
+               <app>
+                  <lem wit="#J">fist</lem>
+                  <rdg wit="#U">feseit</rdg>
+               </app> Dieu sa <app>
+                  <lem wit="#U">mere</lem>
+                  <rdg wit="#J">miere</rdg>
+               </app></l>
+            <l ana="#partiallyCorrect">ne fist pas d'<app>
+                  <lem wit="#U">homme</lem>
+                  <rdg wit="#J">homme terrine</rdg>
+               </app> son <app>
+                  <lem wit="#U">pere</lem>
+                  <rdg wit="#J">piere</rdg>
+               </app>,</l>
+            <!-- from now on, not completely encoded -->
+            <l ana="#correct">dounqe devom plus obeïr</l>
+            <l ana="#correct">160 a femme et la devoms servir</l>
+            <l ana="#correct">qu'a nul homme qi seit vivant,</l>
+            <l ana="#correct">ja ne seit il si haut puissaunt.</l>
+            <l ana="#correct">Femme deit aver seignorie</l>
+            <l ana="#correct">164 sur tote rien qi seit en vie;</l>
+            <l ana="#correct">cel et terre, quantq'i apent,</l>
+            <l ana="#correct">doit estre a soun comaundement.</l>
+            <l ana="#correct">Voillez ore saver pur quoi?</l>
+            <l ana="#correct">168 Kar soun fitz est si puissant rei</l>
+            <l ana="#correct">qe touz reis lui sunt obbeisaunt:</l>
+            <l ana="#correct">n'ad dounqe femme power grant?</l>
+            <l ana="#correct">Et par nature draiturere</l>
+            <l ana="#correct">172 fitz doit obeyer a sa mere,</l>
+            <l ana="#correct">dount piert il, mes jeo ne dy mie</l>
+            <l ana="#correct">qe femme ad Dieu en sa baillie</l>
+            <l ana="#correct">et n'ad il donk a coer la rage</l>
+            <l ana="#partiallyCorrect">176 qi de femme dist hountage</l>
+            <l ana="#correct"> et lui trespase en fettz ou ditz</l>
+            <l ana="#correct">pour la veniaunce de soun fitz.</l>
+            <l ana="#incorrect">Gard soi petit et graunt</l>
+            <l ana="#incorrect">180 qe de femme ne seit mesdisaunt:</l>
+            <l ana="#correct">la veniaunce fet a doter</l>
+            <l ana="#correct">del fitz qi ad si grant power</l>
+            <l ana="#correct">De ceo q'homme dit d'heritage,</l>
+            <l ana="#correct">184 qe perdimes tut par l'outrage</l>
+            <l ana="#correct">dë Eve, ceo est trestut faus,</l>
+            <l ana="#correct">kar meins devoms recter le maus</l>
+            <l ana="#correct">a Eve qe devoms a l'homme</l>
+            <l ana="#partiallyCorrect">188 et nomement de la pome,</l>
+            <l ana="#correct">pur ceo q'Adam plus trespassa</l>
+            <l ana="#correct">qant il de la pome manja.</l>
+            <l ana="#correct"> Ne facez ja pur counseler</l>
+            <l ana="#correct">192 chose qe tourne a encumbrer.</l>
+            <pb ed="#U" n="392r" facs="http://cudl.lib.cam.ac.uk/view/MS-GG-00001-00001/791"/>
+            <l ana="#correct">Jeo su certayn, pur le trespas</l>
+            <l ana="#correct">dë Eve Adam ne perdi pas.</l>
+            <l ana="#correct">Pur le forfet de sa mulier</l>
+            <l ana="#correct">196 ne deit home desheriter</l>
+            <l ana="#correct">et ly escrit ne le veut pas</l>
+            <l ana="#correct">q'homme compierge autri trespas.</l>
+            <l ana="#correct">Qant Evë eust le fruit mangé,</l>
+            <l ana="#incorrect">200 si Adam se fuist bien purpensé</l>
+            <l ana="#correct">et s'eust detenu come sage,</l>
+            <l ana="#correct">retenu eust son heritage,</l>
+            <l ana="#correct">dount jeo die qe toute sa payne</l>
+            <l ana="#correct">204 lui vint par son fete demeigne</l>
+            <l ana="#partiallyCorrect">et pur ceo ne puit remaindre</l>
+            <l ana="#correct">qe d'Adam devoums trestouz pleindre.</l>
+            <l ana="#correct">Recter devoms si a lui noun</l>
+            <l ana="#correct">208 de nostre deseretisoun.</l>
+            <l ana="#correct">Femme doit estre toute quite</l>
+            <l ana="#partiallyCorrect">par ma reson avaunt dite.</l>
+            <l ana="#correct">Si Adam eust fet com sage home,</l>
+            <l ana="#correct">a Eve eust defendu la pome,</l>
+            <l ana="#incorrect">si com'ele fust a ly sugette</l>
+            <l ana="#correct">et ele n'eust pur nulle abette, </l>
+            <l ana="#correct">sachez, de la pome mangé </l>
+            <l ana="#correct">ne si hardi d'aver touché</l>
+            <l ana="#correct">ne cru le maufé tant ne qant,</l>
+            <l ana="#correct">mes Adam qi fu si sachaunt</l>
+            <l ana="#partiallyCorrect">et trestut plein de scïence</l>
+            <l ana="#correct">fist encountre sa conscïence</l>
+            <l ana="#correct">Eve ne savoit plus q'enfaunt, </l>
+            <l ana="#correct">crust le mauvays et tost receust </l>
+            <l ana="#incorrect">et countre Dieu fust desobeisaunt. </l>
+            <l ana="#correct">224 par counseil del serpent le fruit. </l>
+            <l ana="#incorrect">Ore seit q'Eve le consenti: </l>
+            <l ana="#correct">pur bien le fist, come entendi: </l>
+            <l ana="#incorrect">ele enticeit Adam, c'est escrit </l>
+            <l ana="#correct">saunz plus dire fors un petit. </l>
+            <l ana="#correct">Ceo est la force q'il y a: </l>
+            <l ana="#correct">Eve enticeit, Adam manga, </l>
+            <l ana="#correct">et pur ceo puis jeo bien prover</l>
+            <l ana="#correct">që Evë est meins a blamer. </l>
+            <l ana="#correct">Ceo fuit par defaut de nurture </l>
+            <l ana="#correct">d'Adam, qi avoit Eve en cure </l>
+            <l ana="#partiallyCorrect">de chastïer et aprendre. </l>
+            <l ana="#correct">236 Par reson voil Eve defendre </l>
+            <l ana="#incorrect">et q'Adam out le tort, </l>
+            <l ana="#correct">kar si ussez un homme mort </l>
+            <l ana="#correct">et fusez de ceo accupé </l>
+            <l ana="#correct">et devant justice amené </l>
+            <l ana="#correct">dirreit la justice: "Amis, </l>
+            <l ana="#correct">vous avetz cel homme occis". </l>
+            <l ana="#correct">Vous, qe ne le poetz dedire, </l>
+            <l ana="#correct">244 deïssez: "Oïl, veir, beau sire, </l>
+            <l ana="#correct">mais jeo vous di certaynement </l>
+            <l ana="#correct">qe ceo fuist par l'enticement </l>
+            <app>
+               <lem wit="#J"><l ana="#correct">de Robert, William et Wauter</l>
+                  <l ana="#correct">qi moi counseillerunt l'autrer". </l>
+                  <l ana="#incorrect">Sarrez vous pur ceo sauvé? </l>
+                  <l ana="#correct">Nanil, sachez, en verité. </l>
+                  <l ana="#partiallyCorrect">Par les resons avant ditez </l>
+                  <l ana="#partiallyCorrect">252 qe vous vëez cy escritez </l>
+                  <l ana="#correct">poiez entendre apertement </l>
+                  <l ana="#correct">që Adam pur l'enticement </l>
+                  <l ana="#correct">de sa femme pas ne perdi </l>
+                  <l ana="#incorrect">256 son heritage, sachez, de fy, </l>
+                  <l ana="#correct">mes pur sa demeine folie </l>
+                  <l ana="#correct">perdi Adam, ne dotez mie. </l></lem>
+               <rdg wit="#U"><l>Moi conseillerunt e Roger</l>
+                  <supplied reason="interpolation"><l>A tieu jour cele home occire</l>
+                     <l>Quei dite vous, beau douce sire?</l>
+                     <l>Serra celui pur ceo sauvé</l>
+                     <l>u cele gent par li dampné</l>
+                     <l>tut par sun simple dist? Nanil.</l>
+                     <l>Au conseile du roy venent mil</l>
+                     <l>Chescun dirra sun avis</l>
+                     <l>E qant li rois avera tuit enquis</l>
+                     <l>Qei cil ad dit et cil et cil</l>
+                     <l>Si prent le bone et lesce le vil</l>
+                     <l>Ja n'ert celui pur ceo dampné</l>
+                     <l>Ne de conseil le roy osté</l></supplied></rdg>
+            </app>
+            <l ana="#correct">Si ceste resoun poet suffire, </l>
+            <l ana="#correct">unke n'ad mestier de plus dire, </l>
+            <l ana="#incorrect">par qei vous dy verraiment </l>
+            <l ana="#correct">qe celi ment apertement, </l>
+            <l ana="#partiallyCorrect">qi de femmes voet mesdire. </l>
+            <l ana="#correct">264 Et si nul home voil desdire </l>
+            <l ana="#correct">ma reson s'en veingnë avant; </l>
+            <l ana="#correct">sir justice, vees ci mon gant. </l>
+            <l ana="#partiallyCorrect">Ne lerray, pur Cornewaille,</l>
+            <l ana="#incorrect">qe ne fays la bataille,</l>
+            <l ana="#partiallyCorrect">mes jeo entenk une chose</l>
+            <l ana="#correct">k'i n'ad nule q'apprendre l'ose</l>
+            <l ana="#correct">kar tost l'auray vencu a mort </l>
+            <l ana="#incorrect">272 ne par ma force mes par son tort. </l>
+            <l ana="#correct">Vous qi pensez a honor entendre </l><!-- not sure about synalephe -->
+            <l ana="#partiallyCorrect">ou en joie tut dis meindre, </l>
+            <l ana="#incorrect">pur Dieu bien vous hastïez </l>
+            <l ana="#correct">qe de femmes ne mesparlez </l>
+            <l ana="#incorrect">kar par mesdire poi conquerrez </l>
+            <l ana="#correct">devers femmes, bien le sachez. </l>
+            <l ana="#correct">Et ly ancïen sage dist, </l>
+            <l ana="#correct">280 en son livre le troef escrit, </l>
+            <l ana="#partiallyCorrect">q'il ne fet pas grant folie </l>
+            <l ana="#partiallyCorrect">qi par autre soi chastie. </l>
+            <l ana="#correct">Honorez les sur toute rien, </l>
+            <l ana="#incorrect">ja ne troverez en eux qe bien.</l>
+            <l ana="#correct">Beles et bones et douz sount:</l>
+            <l ana="#incorrect">la graynour joie qi est en <app>
+                  <lem>mount</lem>
+                  <rdg wit="#J #U">munde</rdg>
+               </app></l>
+            <l ana="#incorrect">vous vint par femmes, bien le sachez, </l>
+            <l ana="#incorrect">288 ja autrement ne pensez. </l>
+            <l ana="#correct">De lor bounté ay aukes dist </l>
+            <l ana="#correct">mes ma lange pas ne suffit: </l>
+            <l ana="#correct">si jeo fuïsse escriven bon, </l>
+            <l ana="#correct">auxi sage com Salomoun, </l>
+            <l ana="#correct">et vivre puïsse saunz fin, </l>
+            <l ana="#correct">ja en romaunz në en latin </l>
+            <l ana="#correct">ne purray tout counter ne dire </l>
+            <l ana="#correct">bounté de femme, në escrire.</l>
+            <l ana="#correct">Et si nul homme soi delit</l>
+            <l ana="#correct">d'aver bounté de femme escrit</l>
+            <l ana="#incorrect"><app>
+                  <lem wit="#J">veingne a moy qant seray a layser</lem>
+                  <rdg wit="#U"/>
+               </app></l>
+            <l ana="#correct"><app>
+                  <lem wit="#J">et jeo ly dirray a plaiser</lem>
+                  <rdg wit="#U"/>
+               </app></l>
+         </p>
+      </body>
+   </text>
+</TEI>
